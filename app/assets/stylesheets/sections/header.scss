@@ -45,11 +45,10 @@ header {
       margin: 0 6px;
 
       h1 {
-        background: url('logo-black.png') no-repeat center 1px;
-        background-size: 38px;
+        background: url('logo.png') no-repeat center 1px;
         float: left;
-        height: 40px;
-        width: 40px;
+        height: 22px;
+        width:147px;
         @include header-font;
         text-indent: -9999px;
       }
