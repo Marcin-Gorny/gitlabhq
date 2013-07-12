@@ -10,12 +10,9 @@
  *
  */
 .ui-box {
-  background: #F9F9F9;
+  background: :$greybackground;
   margin-bottom: 25px;
-  border: 1px solid #CCC;
   word-wrap: break-word;
-  @include solid-shade;
-
   &.ui-box-show {
     margin:20px 0;
     background: #FFF;
@@ -23,8 +20,8 @@
 
   &.ui-box-danger {
     .title {
-      @include linear-gradient(#F26E5E, #bd362f);
-      color: #fff;
+      background-color:$greybackground;
+      color: $link-color;
       text-shadow: 0 1px 1px #900;
       font-weight: bold;
     }
@@ -81,15 +78,13 @@
   }
 
   .title {
-    @include bg-gray-gradient;
-    border-bottom: 1px solid #CCC;
-    color: #456;
-    font-size: 16px;
+    background-color:$greybackground;
+    color: $link-color;
     text-shadow: 0 1px 1px #fff;
     padding: 0px 10px;
     line-height: 36px;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: bold;
 
     > a {
       text-shadow: 0 1px 1px #fff;

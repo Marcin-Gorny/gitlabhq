@@ -1,6 +1,7 @@
 .dashboard {
   @extend .row;
   .activities {
+    background-color:$greybackground;
   }
 
   .side {

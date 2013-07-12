@@ -18,7 +18,7 @@
     > .active > a {
       border-color: $primary_color;
       border-radius: 0;
-      background: #F1F1F1;
+      background: #FCFCFC;
       color: $style_color;
       font-weight: bold;
     }
@@ -35,13 +35,15 @@
  */
 .nav-tabs > li > a, .nav-pills > li > a { color: $style_color; }
 .nav.nav-tabs {
+  margin: 0px;
   li {
     > a {
       padding: 8px 20px;
       margin-right: 7px;
       line-height: 20px;
       border-color: #EEE;
-      color: #888;
+      color: #FFF;
+    background-color:#525252;
       border-bottom: 1px solid #ddd;
       .badge {
         background-color: #eee;
@@ -56,7 +58,7 @@
       > a {
         border-color: #CCC;
         border-bottom: 1px solid #fff;
-        color: #333;
+        color: #fff;
         font-weight: bold;
       }
     }
