@@ -15,11 +15,11 @@
       border-left: 4px solid #EEE;
       padding: 12px;
     }
-    > .active > a {
+    > .active > a , > .active > a:hover {
       border-color: $primary_color;
       border-radius: 0;
-      background: #F1F1F1;
-      color: $style_color;
+      background: #525252;
+      color: #FFF;
       font-weight: bold;
     }
   }
@@ -40,9 +40,7 @@
       padding: 8px 20px;
       margin-right: 7px;
       line-height: 20px;
-      border-color: #EEE;
-      color: #888;
-      border-bottom: 1px solid #ddd;
+      background-color:#525252;      
       .badge {
         background-color: #eee;
         color: #888;

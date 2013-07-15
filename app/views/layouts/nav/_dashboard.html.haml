@@ -3,16 +3,14 @@
     = link_to root_path, title: "Home" do
       %i.icon-home
   = nav_link(path: 'dashboard#projects') do
-    = link_to projects_dashboard_path do
-      Projects
+    = link_to projects_dashboard_path, title: "Projects" do
+      %i.icon-projects
   = nav_link(path: 'dashboard#issues') do
-    = link_to issues_dashboard_path do
-      Issues
-      %span.count= current_user.assigned_issues.opened.count
+    = link_to issues_dashboard_path, title: "Issues" do
+      %i.icon-issues
   = nav_link(path: 'dashboard#merge_requests') do
-    = link_to merge_requests_dashboard_path do
-      Merge Requests
-      %span.count= current_user.cared_merge_requests.opened.count
-  = nav_link(controller: :help) do
-    = link_to "Help", help_path
-
+    = link_to merge_requests_dashboard_path, title: "Merge Requests" do
+      %i.icon-merge
+  = nav_link(path: '/help') do
+    = link_to help_path, title "Help" do 
+      %i.icon-help
