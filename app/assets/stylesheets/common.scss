@@ -207,13 +207,14 @@ p.time {
 }
 
 .arrow{
-  background: #E3E5EA;
+  background: $link_color;
   padding: 5px;
   margin-top: 5px;
   @include border-radius(5px);
   text-shadow: none;
-  color: #999;
-  line-height: 16px;
+  color: #FFF;
+  line-height: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 
